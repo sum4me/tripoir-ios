@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1940C1218AA0BE30013560F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1940C1118AA0BE30013560F /* Foundation.framework */; };
+		E1940C1418AA0BE30013560F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1940C1318AA0BE30013560F /* CoreGraphics.framework */; };
+		E1940C1618AA0BE30013560F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1940C1518AA0BE30013560F /* UIKit.framework */; };
+		E1940C1818AA0BE30013560F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1940C1718AA0BE30013560F /* CoreData.framework */; };
+		E1940C1E18AA0BE30013560F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1940C1C18AA0BE30013560F /* InfoPlist.strings */; };
+		E1940C2018AA0BE30013560F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1940C1F18AA0BE30013560F /* main.m */; };
+		E1940C2418AA0BE30013560F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1940C2318AA0BE30013560F /* AppDelegate.m */; };
+		E1940C2718AA0BE30013560F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1940C2518AA0BE30013560F /* Main_iPhone.storyboard */; };
+		E1940C2A18AA0BE30013560F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1940C2818AA0BE30013560F /* Main_iPad.storyboard */; };
+		E1940C2D18AA0BE30013560F /* tripoir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1940C2B18AA0BE30013560F /* tripoir.xcdatamodeld */; };
+		E1940C3018AA0BE30013560F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1940C2F18AA0BE30013560F /* MasterViewController.m */; };
+		E1940C3318AA0BE30013560F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1940C3218AA0BE30013560F /* DetailViewController.m */; };
+		E1940C3518AA0BE30013560F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1940C3418AA0BE30013560F /* Images.xcassets */; };
+		E1940C3C18AA0BE30013560F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1940C3B18AA0BE30013560F /* XCTest.framework */; };
+		E1940C3D18AA0BE30013560F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1940C1118AA0BE30013560F /* Foundation.framework */; };
+		E1940C3E18AA0BE30013560F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1940C1518AA0BE30013560F /* UIKit.framework */; };
+		E1940C3F18AA0BE30013560F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1940C1718AA0BE30013560F /* CoreData.framework */; };
+		E1940C4718AA0BE30013560F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1940C4518AA0BE30013560F /* InfoPlist.strings */; };
+		E1940C4918AA0BE30013560F /* tripoirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1940C4818AA0BE30013560F /* tripoirTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1940C4018AA0BE30013560F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1940C0618AA0BE30013560F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1940C0D18AA0BE30013560F;
+			remoteInfo = tripoir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1940C0E18AA0BE30013560F /* tripoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1940C1118AA0BE30013560F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1940C1318AA0BE30013560F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1940C1518AA0BE30013560F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1940C1718AA0BE30013560F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E1940C1B18AA0BE30013560F /* tripoir-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tripoir-Info.plist"; sourceTree = "<group>"; };
+		E1940C1D18AA0BE30013560F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1940C1F18AA0BE30013560F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1940C2118AA0BE30013560F /* tripoir-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tripoir-Prefix.pch"; sourceTree = "<group>"; };
+		E1940C2218AA0BE30013560F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1940C2318AA0BE30013560F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1940C2618AA0BE30013560F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E1940C2918AA0BE30013560F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E1940C2C18AA0BE30013560F /* tripoir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tripoir.xcdatamodel; sourceTree = "<group>"; };
+		E1940C2E18AA0BE30013560F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E1940C2F18AA0BE30013560F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E1940C3118AA0BE30013560F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E1940C3218AA0BE30013560F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E1940C3418AA0BE30013560F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1940C3A18AA0BE30013560F /* tripoirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tripoirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1940C3B18AA0BE30013560F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E1940C4418AA0BE30013560F /* tripoirTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tripoirTests-Info.plist"; sourceTree = "<group>"; };
+		E1940C4618AA0BE30013560F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1940C4818AA0BE30013560F /* tripoirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tripoirTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1940C0B18AA0BE30013560F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1940C1418AA0BE30013560F /* CoreGraphics.framework in Frameworks */,
+				E1940C1818AA0BE30013560F /* CoreData.framework in Frameworks */,
+				E1940C1618AA0BE30013560F /* UIKit.framework in Frameworks */,
+				E1940C1218AA0BE30013560F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1940C3718AA0BE30013560F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1940C3C18AA0BE30013560F /* XCTest.framework in Frameworks */,
+				E1940C3F18AA0BE30013560F /* CoreData.framework in Frameworks */,
+				E1940C3E18AA0BE30013560F /* UIKit.framework in Frameworks */,
+				E1940C3D18AA0BE30013560F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1940C0518AA0BE30013560F = {
+			isa = PBXGroup;
+			children = (
+				E1940C1918AA0BE30013560F /* tripoir */,
+				E1940C4218AA0BE30013560F /* tripoirTests */,
+				E1940C1018AA0BE30013560F /* Frameworks */,
+				E1940C0F18AA0BE30013560F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1940C0F18AA0BE30013560F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1940C0E18AA0BE30013560F /* tripoir.app */,
+				E1940C3A18AA0BE30013560F /* tripoirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1940C1018AA0BE30013560F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1940C1118AA0BE30013560F /* Foundation.framework */,
+				E1940C1318AA0BE30013560F /* CoreGraphics.framework */,
+				E1940C1518AA0BE30013560F /* UIKit.framework */,
+				E1940C1718AA0BE30013560F /* CoreData.framework */,
+				E1940C3B18AA0BE30013560F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1940C1918AA0BE30013560F /* tripoir */ = {
+			isa = PBXGroup;
+			children = (
+				E1940C2218AA0BE30013560F /* AppDelegate.h */,
+				E1940C2318AA0BE30013560F /* AppDelegate.m */,
+				E1940C2518AA0BE30013560F /* Main_iPhone.storyboard */,
+				E1940C2818AA0BE30013560F /* Main_iPad.storyboard */,
+				E1940C2E18AA0BE30013560F /* MasterViewController.h */,
+				E1940C2F18AA0BE30013560F /* MasterViewController.m */,
+				E1940C3118AA0BE30013560F /* DetailViewController.h */,
+				E1940C3218AA0BE30013560F /* DetailViewController.m */,
+				E1940C3418AA0BE30013560F /* Images.xcassets */,
+				E1940C2B18AA0BE30013560F /* tripoir.xcdatamodeld */,
+				E1940C1A18AA0BE30013560F /* Supporting Files */,
+			);
+			path = tripoir;
+			sourceTree = "<group>";
+		};
+		E1940C1A18AA0BE30013560F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1940C1B18AA0BE30013560F /* tripoir-Info.plist */,
+				E1940C1C18AA0BE30013560F /* InfoPlist.strings */,
+				E1940C1F18AA0BE30013560F /* main.m */,
+				E1940C2118AA0BE30013560F /* tripoir-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1940C4218AA0BE30013560F /* tripoirTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1940C4818AA0BE30013560F /* tripoirTests.m */,
+				E1940C4318AA0BE30013560F /* Supporting Files */,
+			);
+			path = tripoirTests;
+			sourceTree = "<group>";
+		};
+		E1940C4318AA0BE30013560F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1940C4418AA0BE30013560F /* tripoirTests-Info.plist */,
+				E1940C4518AA0BE30013560F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1940C0D18AA0BE30013560F /* tripoir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1940C4C18AA0BE30013560F /* Build configuration list for PBXNativeTarget "tripoir" */;
+			buildPhases = (
+				E1940C0A18AA0BE30013560F /* Sources */,
+				E1940C0B18AA0BE30013560F /* Frameworks */,
+				E1940C0C18AA0BE30013560F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tripoir;
+			productName = tripoir;
+			productReference = E1940C0E18AA0BE30013560F /* tripoir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1940C3918AA0BE30013560F /* tripoirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1940C4F18AA0BE30013560F /* Build configuration list for PBXNativeTarget "tripoirTests" */;
+			buildPhases = (
+				E1940C3618AA0BE30013560F /* Sources */,
+				E1940C3718AA0BE30013560F /* Frameworks */,
+				E1940C3818AA0BE30013560F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1940C4118AA0BE30013560F /* PBXTargetDependency */,
+			);
+			name = tripoirTests;
+			productName = tripoirTests;
+			productReference = E1940C3A18AA0BE30013560F /* tripoirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1940C0618AA0BE30013560F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = southroad;
+				TargetAttributes = {
+					E1940C3918AA0BE30013560F = {
+						TestTargetID = E1940C0D18AA0BE30013560F;
+					};
+				};
+			};
+			buildConfigurationList = E1940C0918AA0BE30013560F /* Build configuration list for PBXProject "tripoir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1940C0518AA0BE30013560F;
+			productRefGroup = E1940C0F18AA0BE30013560F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1940C0D18AA0BE30013560F /* tripoir */,
+				E1940C3918AA0BE30013560F /* tripoirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1940C0C18AA0BE30013560F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1940C2A18AA0BE30013560F /* Main_iPad.storyboard in Resources */,
+				E1940C3518AA0BE30013560F /* Images.xcassets in Resources */,
+				E1940C2718AA0BE30013560F /* Main_iPhone.storyboard in Resources */,
+				E1940C1E18AA0BE30013560F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1940C3818AA0BE30013560F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1940C4718AA0BE30013560F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1940C0A18AA0BE30013560F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1940C3318AA0BE30013560F /* DetailViewController.m in Sources */,
+				E1940C3018AA0BE30013560F /* MasterViewController.m in Sources */,
+				E1940C2418AA0BE30013560F /* AppDelegate.m in Sources */,
+				E1940C2D18AA0BE30013560F /* tripoir.xcdatamodeld in Sources */,
+				E1940C2018AA0BE30013560F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1940C3618AA0BE30013560F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1940C4918AA0BE30013560F /* tripoirTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1940C4118AA0BE30013560F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1940C0D18AA0BE30013560F /* tripoir */;
+			targetProxy = E1940C4018AA0BE30013560F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1940C1C18AA0BE30013560F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1940C1D18AA0BE30013560F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1940C2518AA0BE30013560F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1940C2618AA0BE30013560F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E1940C2818AA0BE30013560F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1940C2918AA0BE30013560F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E1940C4518AA0BE30013560F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1940C4618AA0BE30013560F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1940C4A18AA0BE30013560F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1940C4B18AA0BE30013560F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1940C4D18AA0BE30013560F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tripoir/tripoir-Prefix.pch";
+				INFOPLIST_FILE = "tripoir/tripoir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1940C4E18AA0BE30013560F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tripoir/tripoir-Prefix.pch";
+				INFOPLIST_FILE = "tripoir/tripoir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E1940C5018AA0BE30013560F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tripoir.app/tripoir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tripoir/tripoir-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tripoirTests/tripoirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E1940C5118AA0BE30013560F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tripoir.app/tripoir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tripoir/tripoir-Prefix.pch";
+				INFOPLIST_FILE = "tripoirTests/tripoirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1940C0918AA0BE30013560F /* Build configuration list for PBXProject "tripoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1940C4A18AA0BE30013560F /* Debug */,
+				E1940C4B18AA0BE30013560F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1940C4C18AA0BE30013560F /* Build configuration list for PBXNativeTarget "tripoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1940C4D18AA0BE30013560F /* Debug */,
+				E1940C4E18AA0BE30013560F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1940C4F18AA0BE30013560F /* Build configuration list for PBXNativeTarget "tripoirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1940C5018AA0BE30013560F /* Debug */,
+				E1940C5118AA0BE30013560F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1940C2B18AA0BE30013560F /* tripoir.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1940C2C18AA0BE30013560F /* tripoir.xcdatamodel */,
+			);
+			currentVersion = E1940C2C18AA0BE30013560F /* tripoir.xcdatamodel */;
+			path = tripoir.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1940C0618AA0BE30013560F /* Project object */;
+}
